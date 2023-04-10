@@ -1,0 +1,107 @@
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/1094079348253933568/1094564476445011968/SnapSave.io-Do_you_want_to_play_4K_wallpaper_1080pFHR-1080p60_1.gif");
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #ff7676;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+#question, #result {
+  background-color: #f5f5f5;
+  border: 1px solid #ff7676;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ff7676;
+  outline: none;
+}
+
+button[type="submit"], #next-btn {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: #ff7676;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover, #next-btn:hover {
+  background-color: #ff7676;
+}
+
+.timer {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.timer span {
+  display: inline-block;
+  width: 2rem;
+  text-align: center;
+  margin: 0 0.5rem;
+  background-color: #ff7676;
+  color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.timer span:first-child, .timer span:last-child {
+  background-color: #ff7676;
+}
+
+.timer span.time-up {
+  background-color: #c0392b;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  #question, #result {
+    margin: 1rem;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+  }
+}
+
+/* เพิ่มส่วนนี้เข้าไป */
+body {
+  background-color: #FFC0CB;
+}
+<div style="position: fixed; bottom: 0; width: 100%; text-align: center;">
+  <a href="https://example.com/credits.html" style="color: white; font-size: 1.2rem; background-color: #f0932b; padding: 0.5rem; border-radius: 0.5rem; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);">BY MEGUY</a>
+</div>
